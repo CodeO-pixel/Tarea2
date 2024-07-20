@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog de Cine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Blog de Cine</h1>
+    </header>
+
+    <main>
+        <section class="blog-posts">
+            <h2>Últimas Entradas</h2>
+            <article class="promare">
+                <h3>Título de la entrada 1 (Promare)</h3>
+                <p>Fecha de publicación: 2023-10-26</p>
+                
+            </article>
+            <article class="onepiece-red">
+                <h3>Título de la entrada 2 (One Piece Red)</h3>
+                <p>Fecha de publicación: 2023-10-25</p>
+                
+            </article>
+            <article class="dragon-ball-super-broly">
+                <h3>Título de la entrada 3 (Dragon Ball Super: Broly)</h3>
+                <p>Fecha de publicación: 2023-10-24</p>
+                
+            </article>
+        </section>
+
+        <!-- Secciones de las películas (ocultas por defecto) -->
+        <section class="movie-section" id="promare-section">
+            <div class="movie-info">
+                <img src="https://m.media-amazon.com/images/M/MV5BZDVhN2Q4ODEtNjUxYy00YTFlLWIzZWUtOGZiMzllYzJhYjZlXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" alt="Promare" class="movie-poster">
+                <h3>Promare</h3>
+                <p>Sinopsis de Promare: En un futuro cercano, una catástrofe mundial llamada "Burning" ha creado una nueva especie de humanos con poderes de fuego. El equipo de bomberos de élite, "Burning Rescue", lucha contra estos "Burnish" para proteger a la humanidad. </p>
+            </div>
+        </section>
+
+        <section class="movie-section" id="onepiece-red-section">
+            <div class="movie-info">
+                <img src="https://m.media-amazon.com/images/M/MV5BODY4OWM5M2UtM2Y1Yi00YjAyLTlhMDktMDkzZjFmMjI5MmI5XkEyXkFqcGdeQXVyMTA1NjQyNjkw._V1_FMjpg_UX1000_.jpg" alt="One Piece Red" class="movie-poster">
+                <h3>One Piece Red</h3>
+                <p>Sinopsis de One Piece Red: Uta, la cantante más famosa del mundo, revela su identidad como hija de Shanks, el "Pelirrojo". Luffy y la tripulación de los Piratas del Sombrero de Paja se encuentran con Uta en un concierto, pero una amenaza surge cuando su identidad secreta se revela. </p>
+            </div>
+        </section>
+
+        <section class="movie-section" id="dragon-ball-super-broly-section">
+            <div class="movie-info">
+                <img src="https://www.elsoldeacapulco.com.mx/incoming/mbjyrl-dragon-ball-super-broly.jpg/ALTERNATES/LANDSCAPE_1140/Dragon-Ball-Super-Broly.jpg" alt="Dragon Ball Super: Broly" class="movie-poster">
+                <h3>Dragon Ball Super: Broly</h3>
+                <p>Sinopsis de Dragon Ball Super: Broly: Broly, un Saiyan legendario con un poder inmenso, se libera de su prisión y se dirige a la Tierra para buscar venganza contra Goku. Goku, Vegeta y sus aliados deben unirse para enfrentarse a la amenaza de Broly.</p>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Películas</h2>
+            <ul>
+                <li>
+                    <a href="#promare-section" data-category="promare">
+                        <img src="https://m.media-amazon.com/images/M/MV5BZDVhN2Q4ODEtNjUxYy00YTFlLWIzZWUtOGZiMzllYzJhYjZlXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" alt="Promare" class="movie-poster">
+                        <h3>Promare</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#onepiece-red-section" data-category="onepiece-red">
+                        <img src="https://m.media-amazon.com/images/M/MV5BODY4OWM5M2UtM2Y1Yi00YjAyLTlhMDktMDkzZjFmMjI5MmI5XkEyXkFqcGdeQXVyMTA1NjQyNjkw._V1_FMjpg_UX1000_.jpg" alt="One Piece Red" class="movie-poster">
+                        <h3>One Piece Red</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#dragon-ball-super-broly-section" data-category="dragon-ball-super-broly">
+                        <img src="https://www.elsoldeacapulco.com.mx/incoming/mbjyrl-dragon-ball-super-broly.jpg/ALTERNATES/LANDSCAPE_1140/Dragon-Ball-Super-Broly.jpg" alt="Dragon Ball Super: Broly" class="movie-poster">
+                        <h3>Dragon Ball Super: Broly</h3>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mi Blog de Cine</p>
+    </footer>
+
+    <button id="backToTop">Volver arriba</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
